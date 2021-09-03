@@ -1,0 +1,30 @@
+#img{
+    width: 1535px;
+    height: 750px;
+    position: fixed;
+    margin-left: -200px;
+}
+
+h1{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-decoration: underline;
+}
+
+body{
+    overflow: hidden
+}
+
+canvas{
+    border: 2px ridge whitesmoke;
+    animation-name: box-decoration;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box-decoration {
+    from {box-shadow: 1px 1px 38px blue;}
+    to {box-shadow: 1px 1px 38px purple;}
+}
+
